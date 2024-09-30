@@ -19,3 +19,6 @@ int main()
     }
     return 0;
 }
+
+// Exemplo de buffer overflow
+// └─$ python3 -c 'print("A" * 9 + "\x00" + "A" * 9 + "\x00")' | ./out
